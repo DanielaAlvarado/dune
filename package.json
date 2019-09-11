@@ -1,0 +1,43 @@
+{
+  "name": "@dunebird/dune",
+  "version": "0.0.0",
+  "main": "./bin/index.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dotenv": "^8.1.0",
+    "fs-extra": "^8.0.1",
+    "shelljs": "^0.8.3",
+    "yargs": "^13.2.4"
+  },
+  "bin": {
+    "dune": "./bin/index.js"
+  },
+  "description": "CLI tool to create REST APIs with Node.js. Generates project files and uses other packages to implement the necessary functionalities of the API.",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielaAlvarado/dune.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "cli",
+    "project",
+    "generator",
+    "express",
+    "knex",
+    "objection",
+    "jest"
+  ],
+  "author": "Daniela Alvarado Pereda",
+  "bugs": {
+    "url": "https://github.com/DanielaAlvarado/dune/issues"
+  },
+  "homepage": "https://github.com/DanielaAlvarado/dune#readme"
+}
