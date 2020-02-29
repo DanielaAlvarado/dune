@@ -1,6 +1,6 @@
 {
   "name": "@dunebird/dune",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./bin/index.js",
   "dependencies": {
     "chalk": "^2.4.2",
